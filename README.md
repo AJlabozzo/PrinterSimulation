@@ -10,3 +10,5 @@ line 4: maximum task size, integer between 1 and 100
 line 5: number of printers, integer value of 1 or 2  
 line 6: page per minute for printer 1, integer value between 1 and 50  
 line 7: page per minute for printer 2 if number of printers = 2, integer value between 1 and 50  
+
+once the program executes it will create an output .txt file with results of the simulation.

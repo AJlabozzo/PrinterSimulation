@@ -55,6 +55,7 @@ def fileclose():   # A function to close the files
     config.close() 
     fileOut.close()
 
+ 
 def Simulaton(Duration,PPM1,PPM2,numberOfSimulations,minTask,maxTask,printerNum):
 
     averageWaitList = []
@@ -73,6 +74,7 @@ def Simulaton(Duration,PPM1,PPM2,numberOfSimulations,minTask,maxTask,printerNum)
                     
             # If the number of printers is 1, printer 1 is free, and there is a task in the queue
             # Printer 1 will be given the next task in the queue then printer calls tick method
+            # I did not write the folowing code for the 1 printer simulation this was also given by professor.
             if  printerNum == 1:
     
                 if newPrintTask(): 

@@ -6,6 +6,8 @@ import random
 fileOut = open("sim_out.txt",'w')
 config = open("sim_config.txt")
 
+
+# Printer class  and definitions was created by the proffesor for use in assignment as well as the Task class 
 class Printer:
     def __init__(self, ppm):
         self.pagerate = ppm

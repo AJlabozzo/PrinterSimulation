@@ -1,5 +1,5 @@
 # PrinterSimulation
-This was a project for a programming class written in python that involved the queue data structure and simulated the effect a queue would have on the time it would take for multiple printers to process printing jobs.
+Data Structures project using the queue data structure and simulated the effect a queue would have on the time it would take for multiple printers to process printing jobs.
 
 Note. Assignment5.py requires a .txt file to run with configurations for the printer simulation written in the following format :
 
